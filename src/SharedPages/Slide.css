@@ -1,0 +1,176 @@
+.slide-container {
+    position: relative;
+    width: 100%;
+    height: 38rem;
+    overflow: hidden;
+}
+
+.slide-image {
+    position: absolute;
+    top: -100%;
+    /* Initially positioned above */
+    left: 0;
+    width: 100%;
+    transition: top 0.5s ease-in-out;
+}
+
+.slide-overlay {
+    position: absolute;
+    top: 50%;
+    /* Initially positioned in the middle */
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.slide-text {
+    font-size: 3xl;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.slide-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #4a5568;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+    /* Ensure button is above text */
+}
+.swiper-pagination {
+    bottom: 10px;
+    /* Adjust as needed */
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    transform: translate(0, -500%);
+    left: 50%;
+    z-index: 50;
+   
+    /* Ensure pagination is above image and text */
+}
+
+
+.slide-button:hover {
+    background-color: #2d3748;
+}
+
+.swiper-slide-active .slide-image {
+    top: 0;
+    /* Move image to its final position */
+}
+
+.swiper-slide-active .slide-overlay {
+    bottom: 0;
+    /* Move text overlay to its final position */
+}
+
+.swiper-pagination-bullet {
+    background-color: red;
+    /* Change color of pagination dots */
+    width: 8px;
+    /* Adjust size as needed */
+    height: 8px;
+    /* Adjust size as needed */
+    opacity: 0.5;
+    /* Adjust opacity as needed */
+    margin: 0 5px;
+    /* Adjust spacing between dots as needed */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: red;
+    /* Change color of active pagination dot */
+    opacity: 1;
+    /* Adjust opacity as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .slide-container {
+    position: relative;
+    width: 100%;
+    height: 38rem;
+    overflow: hidden;
+}
+
+.slide-image {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    transition: top 0.5s ease-in-out;
+}
+
+.slide-text-container {
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    transition: bottom 0.5s ease-in-out;
+}
+
+.slide-text {
+    font-size: 3xl;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.slide-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #4a5568;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.slide-button:hover {
+    background-color: #2d3748;
+}
+
+.swiper-slide-active .slide-image {
+    top: 0;
+}
+
+.swiper-slide-active .slide-text-container {
+    bottom: 0;
+} */
