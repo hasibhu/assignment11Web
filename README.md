@@ -5,10 +5,9 @@ https://assisnment11web.web.app/
 
 #
 
-Website Themes: ()
-You need to create on building 
+
 # Purpose of the application: 
-<h5> # Volunteer Management Website</h5>
+<h5> # Volunteer Management </h5>
 
 <h5> # The application aims a user-friendly platform for volunteer management where a user can create a volunteer need post, update and delete a post, a user can be a volunteer for others post. It built built with using the MERN stack (MongoDB, Express.js, React, Node.js).</h5>
 
